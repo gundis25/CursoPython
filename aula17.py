@@ -1,9 +1,10 @@
 # if / elif       / else
 # se / se nao se /se nao
-condicional1 = False
+
+condicional1 = True
 condicional2 = False
-condicional3 = False
-condicional4 = False
+condicional3 = True
+condicional4 = True
 
 if condicional1:
     print('Ccodigo para condicinal1')
