@@ -12,7 +12,7 @@ try:
     print(f'Odobro de {numero_str} e {numero_float * 2:.2f}')
 except:
     print('Isso nao e um numero')
-"""    
+"""
 
 if numero_str.isdigit(): # O numero digitado deve ser inteiro
     numero_float = float(numero_str)
