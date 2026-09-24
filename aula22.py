@@ -21,5 +21,5 @@ else:
 
 senha = input('Senha: ') or 'Sem senha'
 print(senha)
-print(False or False or "abc" or True )
+print(False or False or 'abc' or True )
 
