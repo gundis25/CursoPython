@@ -1,0 +1,39 @@
+"""
+Faça um programa que pergunte a hora ao usuário e, baseando-se no horário
+descrito, exiba a saudação apropriada. Ex.
+Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
+"""
+
+horas = input('Que hora São: ')
+"""
+if horas.isdigit():
+  horas_int = int(horas)
+  bom_dia = horas_int < 12
+  boa_tarde = horas_int >= 12 and horas_int <= 17
+  if bom_dia:
+    print('Bom dia!')
+  elif boa_tarde:
+    print('Boa tarde!')
+  else:
+    print('Boa noite!')
+
+else:
+  print('entrada invalida digite um numero inteiro')
+
+
+horas = input('Que hora São: ')
+
+"""
+try:
+  horas_int = int(horas)
+  bom_dia = horas_int < 12
+  boa_tarde = horas_int >= 12 and horas_int <= 17
+  if bom_dia:
+    print('Bom dia!')
+  elif boa_tarde:
+    print('Boa tarde!')
+  else:
+    print('Boa noite!')
+except:
+    print('entrada invalida digite um numero inteiro')
+

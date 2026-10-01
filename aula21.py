@@ -8,7 +8,6 @@
 # 0 0.0 '' False
 # Também existe o tipo None que é
 # usado para representar um não valor
-change
 entrada = input('[E]ntrar [S]air: ')
 senha_digitada = input('Senha: ')
 
